@@ -1,0 +1,58 @@
+
+.App {
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.button {
+  height: 48px;
+  width: 192px;
+  border-radius: 3px;
+  background-color: #FFCD29;
+}
+
+.button:hover {
+  background-color: #14AE5C
+}
+
+.green {
+  background-color: #14AE5C;
+  color: #FFFFFF;
+}
+
+.cardContainer {
+  position: relative;
+  width: 191.7px;
+  height: 205.73px;
+  background-color: #E6E6E6;
+}
+
+.imageIcon {
+  position: absolute;
+  top: 6.25%;
+  bottom: 6.25%;
+  align-items: center;
+}
+
+.cardBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  position: absolute;
+  width: 159.7px;
+  height: 72px;
+  left: 16px;
+  top: 67px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.011em;
+  color: rgba(0, 0, 0, 0.8);
+}
